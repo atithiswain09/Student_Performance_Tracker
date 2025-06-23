@@ -8,6 +8,7 @@ const App = () => {
   console.log(StudentArray);
   return (
     <div className="hole">
+      <h1>Student Performance Tracker 🎓</h1>
       <AddStudent StudentArray={setStudentArray} />
 
       <StudentList stud={StudentArray} />
